@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1px solid #a7acb7;
+
+}
+.myntralogo{
+    height: 36px;
+
+}
+.logo{
+    margin-left: 4%;
+}
+.actionbar{
+    margin-right: 4%;
+    display: flex;
+    min-width: 180px;
+    justify-content: space-between;
+    
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0 ;
+    border-bottom: 4px solid #ffffff;
+}
+.navbar a:hover{
+    border-bottom: 4px solid crimson;
+    
+}
+.navbar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+ .searchbar{
+   
+    min-width: 500px;
+    display: flex;
+    
+
+}
+.searchicon{
+box-sizing: content-box;
+height: 20px;
+padding: 10px;
+color: #282c3f;
+background-color: #f5f5f6;
+font-weight: 300;
+border-radius: 4px 0 0 4px;
+}
+ .searchinput{
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+} 
+
+.actioncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* MAIN  SECTION */
+
+.bannercontainer{
+    margin: 10px 0;
+}
+.banner1{
+    max-width: 100%;
+    
+}
+.banner2{
+    max-width: 100%;
+}
+.categoryheading{
+    text-transform: uppercase;
+    margin: 30px 0px 10px 30px;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+
+.categoryitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.brand1{
+    width: 240px;
+}
+.footercontainer{
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footercolumn{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footercolumn a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.footercolumn h3{
+    padding: 0px 0px 20px 0px;
+}
+.getit{
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.ki{
+    height: 25px;
+}
